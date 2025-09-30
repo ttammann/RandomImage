@@ -12,6 +12,12 @@ To start the app run
 docker-compose up
 ```
 
+If you get an error, try 
+
+```shell
+docker-compose up --build
+```
+
 and use this URL to access it in the browser
 
 ```shell
