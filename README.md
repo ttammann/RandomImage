@@ -33,3 +33,6 @@ The app was build using
 * In-memory H2 database
 * Thymeleaf
 * Lombok
+
+Todo:
+- Automated Test
