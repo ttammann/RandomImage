@@ -1,6 +1,6 @@
 # Random Image Viewer
 
-This app randomly shows 1 our of 15 Duck images.
+This app randomly shows 1 our of 15 Duck images. A Prometheus endpoint is enabled.
 
 The images are taken from this API:
 
@@ -27,6 +27,10 @@ http://localhost:8080
 The two underlying APIs are
 * POST localhost:8080/api/fetch-random
 * GET localhost:8080/api/latest
+
+The Prometheus Endpoint is
+http://localhost:8080/actuator/prometheus
+
 
 The app was build using
 * Springboot
